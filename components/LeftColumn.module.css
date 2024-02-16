@@ -1,0 +1,132 @@
+.profile {
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem 0;
+}
+
+
+.button {
+    margin: .3rem .4rem .3rem 0;
+    font-size: 1.8rem;
+    transition: transform 0.2s ease;
+}
+
+.button:hover {
+transform: scale(1.1);
+}
+
+.techDiv {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+.techButtonDiv{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.logo {
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.logo:hover {
+transform: scale(1.1);
+}
+
+.linkedin .logo {
+color: #0077b5; 
+}
+
+.github .logo {
+color: #e87a3a; 
+}
+
+.whatsapp .logo {
+color: #25d366; 
+}
+
+.email .logo {
+color: #fb1d00; 
+}
+
+.html .logo {
+color: #e44d26; /* Color de HTML */
+}
+
+.css .logo {
+color: #264de4; /* Color de CSS */
+}
+
+.javascript .logo {
+color: #f7df1e; /* Color de JavaScript */
+}
+
+.react .logo {
+color: #61dafb; /* Color de React */
+}
+
+.next .logo {
+color: #000000; /* Color de Next.js */
+}
+
+.python .logo {
+color: #3776ab; /* Color de Python */
+}
+
+.mongodb .logo {
+color: #47a248; /* Color de MongoDB */
+}
+
+.git .logo {
+color: #f05033; /* Color de Git */
+}
+
+.figma .logo {
+color: #f24e1e; /* Color de Figma */
+}
+
+.jira .logo {
+color: #0052cc; /* Color de Jira */
+}
+
+.notion .logo {
+color: #000000; /* Color de Notion */
+}
+
+.download {
+    background-color: rgba(43, 151, 239, 0.2); 
+    border: none; 
+    padding: 12px 24px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); 
+    transition: transform 0.2s ease, background-color 0.2s ease; 
+    /* margin: auto 0 2rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.download:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.downloadLogo {
+    margin: 0 .5rem;
+}
+
+
+
+@media (min-width: 640px) {
+    .profile {
+        height: 100vh;
+    }
+
+    .download {
+        margin-top: auto;
+    }
+}

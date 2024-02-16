@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para los elementos de la lista */
+.ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.li {
+    margin-bottom: 10px; 
+    padding-left: 20px; 
+    position: relative; 
+}
+
+
+.li::before {
+    content: "\2022"; 
+    position: absolute;
+    left: 0; 
+    top: 0; 
+    color: #001c39; 
+}
