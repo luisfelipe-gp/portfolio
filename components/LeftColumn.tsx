@@ -3,7 +3,6 @@ import styles from './LeftColumn.module.css';
 import { FaLinkedin, FaGithubSquare, FaHtml5, FaCss3Alt, FaReact, FaPython, FaGitAlt, FaJira, FaFigma, FaWhatsapp, FaDownload } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiNextdotjs, SiMongodb, SiNotion  } from "react-icons/si";
-import { MdEmail } from "react-icons/md";
 
 const LeftColumn: React.FC<{ inter: any }> = ({ inter }) => {
   return (
@@ -35,10 +34,12 @@ const LeftColumn: React.FC<{ inter: any }> = ({ inter }) => {
             <li className={`${styles.button} ${styles.jira}`}><FaJira className={`${styles.logo}`}/></li>
             <li className={`${styles.button} ${styles.notion}`}><SiNotion className={`${styles.logo}`}/></li>
           </ul>
-        </div>
+        </div>ter
         <div className={`${styles.download} mt-10 mb-5`}>
-          <p >Descarga CV</p>
-          <FaDownload className={`${styles.downloadLogo}`}/>
+          <a href="/LuisFelipeGuarinP.pdf" download="LuisFelipeGuarinP-CV" className={`${styles.linkCV}`}>
+            <p>Descarga CV</p>
+            <FaDownload className={`${styles.downloadLogo}`} />
+          </a>
         </div>
       </div>
     </div>

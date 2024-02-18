@@ -103,7 +103,6 @@ color: #000000; /* Color de Notion */
     border-radius: 8px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); 
     transition: transform 0.2s ease, background-color 0.2s ease; 
-    /* margin: auto 0 2rem; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,6 +116,12 @@ color: #000000; /* Color de Notion */
 
 .downloadLogo {
     margin: 0 .5rem;
+}
+
+.linkCV {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
