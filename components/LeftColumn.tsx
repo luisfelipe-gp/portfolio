@@ -34,7 +34,7 @@ const LeftColumn: React.FC<{ inter: any }> = ({ inter }) => {
             <li className={`${styles.button} ${styles.jira}`}><FaJira className={`${styles.logo}`}/></li>
             <li className={`${styles.button} ${styles.notion}`}><SiNotion className={`${styles.logo}`}/></li>
           </ul>
-        </div>ter
+        </div>
         <div className={`${styles.download} mt-10 mb-5`}>
           <a href="/LuisFelipeGuarinP.pdf" download="LuisFelipeGuarinP-CV" className={`${styles.linkCV}`}>
             <p>Descarga CV</p>
